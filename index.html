@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>FORM</title>
+    </head>
+        <body>
+            <link rel="stylesheet" href="./style2.css">
+            <form class="form1" action="" align="center">
+             <fieldset>
+                <legend align="center">
+                    <h3>PERSONAL DETAILS</h3>
+                    <label for="fname">First Name: </label><br>
+                    <input type="text" id="fname"><br>
+                    <label for="lname">Last Name: </label><br>
+                    <input type="text" id="lname"><br>
+                    <label for="email">Email: </label><br>
+                    <input type="email" id="email"><br>
+                    <label for="cno">Contact no: </label><br>
+                    <input type="number" id="cno"><br>
+                    <p>Gender:</p>
+                    <label for="gender_m">Male</label>
+                    <input type="radio" id="gender_m" name="gender" value="Male">
+                    <label for="gender_f">Female</label>
+                    <input type="radio" id="gender_f" name="gender" value="Female"><br><br>
+                    <input type="submit" onclick="alert('Your form has been submitted')">
+                    <input type="reset">
+                    <h3>OTHER DETAILS</h3>
+                    <p>Experience:</p>
+                    <label for="0-1">0-1 Years</label>
+                    <input type="radio" id="0-1" name="exp"><br>
+                    <label for="2-3">2-3 Years</label>
+                    <input type="radio" id="2-3" name="exp"><br>
+                    <label for="4-5">4-5 Years</label>
+                    <input type="radio" id="4-5" name="exp"><br>
+                    <label for="6+">6 + Years </label>
+                    <input type="radio" id="6+" name="exp"><br><br>
+                    <p>Languages known:</p> 
+                    <input type="checkbox" name="lang" value="Hindi">Hindi<br>
+                    <input type="checkbox" name="lang" value="English">English<br>
+                    <input type="checkbox" name="lang" value="French">French<br>
+                    <input type="checkbox" name="lang" value="Spanish">Spanish<br>
+                    <input type="checkbox" name="lang" value="Japanese">Japanese<br><br>
+                    <input type="submit" onclick="alert('Your response has been submitted')">
+                </legend>
+             </fieldset>
+
+            </form>
+        </body>
+</html>
